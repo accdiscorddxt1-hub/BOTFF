@@ -16,8 +16,9 @@ import sys
 import random
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad, unpad
+from keep_alive import keep_alive
 
-
+keep_alive()
 
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)  
